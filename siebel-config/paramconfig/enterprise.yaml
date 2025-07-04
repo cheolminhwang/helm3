@@ -7,7 +7,7 @@ enterprise:
       EnterpriseDeployParams:
         EnterpriseDesc: siebel_ent
         SiebelEnterprise: siebel_ent
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/deployments/enterprises
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/deployments/enterprises
   EnterpriseProfiles:
     profiles:
     - EnterpriseConfigParams:
@@ -65,7 +65,7 @@ enterprise:
       Profile:
         LastUpdated: 2021/12/22 17:25:37
         ProfileName: siebel_ent
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/enterprises
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/enterprises
   parameters:
   - basic_params:
     - PA_ALIAS: MarketingFileSystem
@@ -78,12 +78,12 @@ enterprise:
       PA_VALUE: /siebel/mde/tls_certs/ca.key.pem
     - PA_ALIAS: KeyFilePassword
       PA_VALUE: siebel
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/parameters
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/parameters
   - hidden_params: []
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/parameters?hidden=true
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/parameters?hidden=true
   - advanced_params:
     - PA_ALIAS: FileSystem
       PA_VALUE: /sfs0
     - PA_ALIAS: CFGSharedModeUsersDir
       PA_VALUE: /sfs0/userpref
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/parameters?advanced=true
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/parameters?advanced=true

@@ -4,12 +4,12 @@ migration:
     migration_deployment_info:
     - DeploymentInfo:
         Action: Deploy
-        PhysicalHostIP: quantum-0.config-scmvanilla-uf8u2e.svc.cluster.local:4430
+        PhysicalHostIP: quantum-0.scmvanilla.svc.cluster.local:4430
         ProfileName: SiebelMigration
       MigrationDeployParams:
         MigrationDesc: Siebel Migration App
         SiebelMigration: migration-app
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/deployments/migrations
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/deployments/migrations
   MigrationProfiles:
     profiles:
     - MigrationConfigParams:
@@ -18,9 +18,9 @@ migration:
         LogLevel: Error
         PackageLocation: /migration
         SiebelApplicationName: eai
-        SiebelRESTEndpoint: https://quantum-0.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0
+        SiebelRESTEndpoint: https://quantum-0.scmvanilla.svc.cluster.local:4430/siebel/v1.0
         SleepTime: 15
         Timeout: 300
       Profile:
         ProfileName: SiebelMigration
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/migrations
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/migrations

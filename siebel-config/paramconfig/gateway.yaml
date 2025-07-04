@@ -5,11 +5,11 @@ gateway:
       registryPassword: sadmin
       registryPort: '2320'
       registryUserName: sadmin
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/bootstrapCG
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/bootstrapCG
   CGinfo:
-    CGHostURI: siebelcgw-0.siebel-cgw.config-scmvanilla-uf8u2e.svc.cluster.local:4430
+    CGHostURI: siebelcgw-0.siebel-cgw.scmvanilla.svc.cluster.local:4430
     CGTlsPort: '8888'
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cginfo
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cginfo
   GatewayClusterDeployment:
     gateway_cluster_deployment_info:
     - DeploymentInfo:
@@ -17,19 +17,19 @@ gateway:
         ProfileName: OEL_gatewaycluster_profile
       GatewayClusterNodeRegistryList:
       - IsPrimary: true
-        PhysicalHostIP: siebelcgw-0.siebel-cgw.config-scmvanilla-uf8u2e.svc.cluster.local:4430
+        PhysicalHostIP: siebelcgw-0.siebel-cgw.scmvanilla.svc.cluster.local:4430
       - IsPrimary: false
-        PhysicalHostIP: siebelcgw-1.siebel-cgw.config-scmvanilla-uf8u2e.svc.cluster.local:4430
+        PhysicalHostIP: siebelcgw-1.siebel-cgw.scmvanilla.svc.cluster.local:4430
       - IsPrimary: false
-        PhysicalHostIP: siebelcgw-2.siebel-cgw.config-scmvanilla-uf8u2e.svc.cluster.local:4430
+        PhysicalHostIP: siebelcgw-2.siebel-cgw.scmvanilla.svc.cluster.local:4430
       GatewayClusterNodeServiceList:
       - IsPrimary: true
-        PhysicalHostIP: siebelcgw-0.siebel-cgw.config-scmvanilla-uf8u2e.svc.cluster.local:4430
+        PhysicalHostIP: siebelcgw-0.siebel-cgw.scmvanilla.svc.cluster.local:4430
       - IsPrimary: false
-        PhysicalHostIP: siebelcgw-1.siebel-cgw.config-scmvanilla-uf8u2e.svc.cluster.local:4430
+        PhysicalHostIP: siebelcgw-1.siebel-cgw.scmvanilla.svc.cluster.local:4430
       - IsPrimary: false
-        PhysicalHostIP: siebelcgw-2.siebel-cgw.config-scmvanilla-uf8u2e.svc.cluster.local:4430
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/deployments/gatewaycluster
+        PhysicalHostIP: siebelcgw-2.siebel-cgw.scmvanilla.svc.cluster.local:4430
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/deployments/gatewaycluster
   GatewayClusterProfiles:
     profiles:
     - GatewayClusterConfigParams:
@@ -39,9 +39,9 @@ gateway:
       Profile:
         LastUpdated: 2023/03/31 09:33:01
         ProfileName: OEL_gatewaycluster_profile
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/gatewaycluster
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/gatewaycluster
   HeartBeat:
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/heartbeat
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/heartbeat
   SecurityProfiles:
     profiles:
     - Profile:
@@ -69,4 +69,4 @@ gateway:
         SecAdptName: DBSecAdpt
         TestUserName: SADMIN
         TestUserPwd: SoGang##83
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/GatewaySecurityProfile
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/GatewaySecurityProfile

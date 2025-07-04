@@ -232,7 +232,7 @@ sai_quantum:
         LogProperties:
           LogLevel: ERROR
       RESTInBound:
-        Baseuri: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/
+        Baseuri: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/
         LogProperties:
           LogLevel: ERROR
         MaxConnections: 20
@@ -288,4 +288,4 @@ sai_quantum:
       LastUpdated: 2021/12/22 17:34:48
       ProfileName: ai_publicsector_greenfield
   replicas: 1
-  url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/swsm
+  url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/swsm

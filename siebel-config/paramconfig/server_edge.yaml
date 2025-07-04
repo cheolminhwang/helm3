@@ -10,7 +10,7 @@ server_edge:
             CP_DISP_RUN_STATE: Not Online
             CT_ALIAS: BusSvcMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/BusIntBatchMgr
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/BusIntBatchMgr
         BusIntMgr:
           definition:
             CC_ALIAS: BusIntMgr
@@ -19,7 +19,7 @@ server_edge:
             CP_DISP_RUN_STATE: Not Online
             CT_ALIAS: BusSvcMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/BusIntMgr
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/BusIntMgr
         CustomAppObjMgr_enu:
           definition:
             CC_ALIAS: CustomAppObjMgr_enu
@@ -28,7 +28,7 @@ server_edge:
             CP_DISP_RUN_STATE: Not Online
             CT_ALIAS: CustomAppObjMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/CustomAppObjMgr_enu
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/CustomAppObjMgr_enu
         EAIObjMgr_enu:
           definition:
             CC_ALIAS: EAIObjMgr_enu
@@ -37,7 +37,7 @@ server_edge:
             CP_DISP_RUN_STATE: Not Online
             CT_ALIAS: EAIObjMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/EAIObjMgr_enu
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/EAIObjMgr_enu
         EIM:
           definition:
             CC_ALIAS: EIM
@@ -46,7 +46,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: EIM
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/EIM
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/EIM
         InfraEAIOutbound:
           definition:
             CC_ALIAS: InfraEAIOutbound
@@ -55,7 +55,7 @@ server_edge:
             CP_DISP_RUN_STATE: Not Online
             CT_ALIAS: BusSvcMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/InfraEAIOutbound
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/InfraEAIOutbound
         JMSReceiver:
           definition:
             CC_ALIAS: JMSReceiver
@@ -64,7 +64,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: EAIJMSRcvr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/JMSReceiver
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/JMSReceiver
         MSMQRcvr:
           definition:
             CC_ALIAS: MSMQRcvr
@@ -73,7 +73,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: EAIRcvr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/MSMQRcvr
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/MSMQRcvr
         MqSeriesAMIRcvr:
           definition:
             CC_ALIAS: MqSeriesAMIRcvr
@@ -82,7 +82,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: EAIRcvr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/MqSeriesAMIRcvr
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/MqSeriesAMIRcvr
         MqSeriesSrvRcvr:
           definition:
             CC_ALIAS: MqSeriesSrvRcvr
@@ -91,7 +91,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: EAIRcvr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/MqSeriesSrvRcvr
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/MqSeriesSrvRcvr
         SMQReceiver:
           definition:
             CC_ALIAS: SMQReceiver
@@ -100,8 +100,8 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: EAIRcvr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SMQReceiver
-      url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/EAI
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SMQReceiver
+      url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/EAI
     PublicSector:
       components:
         PSCcObjMgr_enu:
@@ -112,7 +112,7 @@ server_edge:
             CP_DISP_RUN_STATE: Not Online
             CT_ALIAS: AppObjMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/PSCcObjMgr_enu
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/PSCcObjMgr_enu
         PSSServiceObjMgr_enu:
           definition:
             CC_ALIAS: PSSServiceObjMgr_enu
@@ -121,7 +121,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: AppObjMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/PSSServiceObjMgr_enu
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/PSSServiceObjMgr_enu
         PSScwObjMgr_enu:
           definition:
             CC_ALIAS: PSScwObjMgr_enu
@@ -130,8 +130,8 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: AppObjMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/PSScwObjMgr_enu
-      url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/PublicSector
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/PSScwObjMgr_enu
+      url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/PublicSector
     SiebelWebTools:
       components:
         SWToolsObjMgr_enu:
@@ -142,8 +142,8 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: AppObjMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SWToolsObjMgr_enu
-      url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/SiebelWebTools
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SWToolsObjMgr_enu
+      url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/SiebelWebTools
     System:
       components:
         SCBroker:
@@ -155,8 +155,8 @@ server_edge:
             CT_ALIAS: SCBroker
           parameters:
           - advanced_params: []
-            url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SCBroker/parameters?advanced=true
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SCBroker
+            url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SCBroker/parameters?advanced=true
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SCBroker
         SRBroker:
           definition:
             CC_ALIAS: SRBroker
@@ -165,7 +165,7 @@ server_edge:
             CP_DISP_RUN_STATE: Running
             CT_ALIAS: ReqBroker
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SRBroker
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SRBroker
         ServerMgr:
           definition:
             CC_ALIAS: ServerMgr
@@ -174,8 +174,8 @@ server_edge:
             CP_DISP_RUN_STATE: Running
             CT_ALIAS: ServerMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/ServerMgr
-      url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/System
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/ServerMgr
+      url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/System
     SystemAux:
       components:
         AdminNotify:
@@ -186,7 +186,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: AdminNotify
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/AdminNotify
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/AdminNotify
         FSMSrvr:
           definition:
             CC_ALIAS: FSMSrvr
@@ -195,7 +195,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: FSMSrvr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/FSMSrvr
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/FSMSrvr
         SRProc:
           definition:
             CC_ALIAS: SRProc
@@ -204,7 +204,7 @@ server_edge:
             CP_DISP_RUN_STATE: Running
             CT_ALIAS: SRProc
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SRProc
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SRProc
         SvrTaskPersist:
           definition:
             CC_ALIAS: SvrTaskPersist
@@ -213,7 +213,7 @@ server_edge:
             CP_DISP_RUN_STATE: Running
             CT_ALIAS: BusSvcMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SvrTaskPersist
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SvrTaskPersist
         SvrTblCleanup:
           definition:
             CC_ALIAS: SvrTblCleanup
@@ -222,8 +222,8 @@ server_edge:
             CP_DISP_RUN_STATE: Running
             CT_ALIAS: BusSvcMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SvrTblCleanup
-      url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/SystemAux
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/SvrTblCleanup
+      url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/SystemAux
     Workflow:
       components:
         GenTrig:
@@ -234,7 +234,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: GenTrig
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/GenTrig
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/GenTrig
         WfProcBatchMgr:
           definition:
             CC_ALIAS: WfProcBatchMgr
@@ -243,7 +243,7 @@ server_edge:
             CP_DISP_RUN_STATE: Not Online
             CT_ALIAS: BusSvcMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WfProcBatchMgr
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WfProcBatchMgr
         WfProcMgr:
           definition:
             CC_ALIAS: WfProcMgr
@@ -252,7 +252,7 @@ server_edge:
             CP_DISP_RUN_STATE: Not Online
             CT_ALIAS: BusSvcMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WfProcMgr
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WfProcMgr
         WfRecvMgr:
           definition:
             CC_ALIAS: WfRecvMgr
@@ -261,7 +261,7 @@ server_edge:
             CP_DISP_RUN_STATE: Not Online
             CT_ALIAS: BusSvcMgr
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WfRecvMgr
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WfRecvMgr
         WorkActn:
           definition:
             CC_ALIAS: WorkActn
@@ -270,7 +270,7 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: WorkActn
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WorkActn
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WorkActn
         WorkMon:
           definition:
             CC_ALIAS: WorkMon
@@ -279,8 +279,8 @@ server_edge:
             CP_DISP_RUN_STATE: Online
             CT_ALIAS: WorkMon
           parameters: []
-          url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WorkMon
-      url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/Workflow
+          url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/components/WorkMon
+      url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/compgroups/Workflow
   deployment:
     DeploymentInfo:
       ProfileName: siebel
@@ -293,11 +293,11 @@ server_edge:
       PA_VALUE: 'False'
     - PA_ALIAS: NotifyHandler
       PA_VALUE: AdminEmailAlert
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/parameters
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/parameters
   - hidden_params: []
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/parameters?hidden=true
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/parameters?hidden=true
   - advanced_params: []
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/parameters?advanced=true
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/enterprises/siebel_ent/servers/server_name/parameters?advanced=true
   profiles:
     Profile:
       LastUpdated: 2021/12/22 17:28:42
@@ -309,7 +309,7 @@ server_edge:
       CertFileNameServer: null
       ClusteringEnvironmentSetup: NotClustered
       Db2InstHome: null
-      EnableCompGroupsSIA: Workflow,PublicSector,SiebelWebTools,EAI
+      EnableCompGroupsSIA: SiebelWebTools,Workflow,EAI,PublicSector
       Encrypt: null
       LocalSynchMgrPort: '40400'
       ModifyServerAuth: null
@@ -323,5 +323,5 @@ server_edge:
       SqlServerPort: null
       UseOracleConnector: 'true'
       Username: SADMIN
-    url: https://smc-0.smc.config-scmvanilla-uf8u2e.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/servers
+    url: https://smc-0.smc.scmvanilla.svc.cluster.local:4430/siebel/v1.0/cloudgateway/profiles/servers
   replicas: 1
